@@ -187,3 +187,67 @@ body {
 .back-link:hover {
     color: #72243E;
 }
+
+/*view html*/
+
+.category-section {
+    margin-bottom: 20px;
+}
+
+.category-title {
+    font-size: 13px;
+    color: #72243E;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #F4C0D1;
+}
+
+.product-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FBEAF0;
+    border: 1px solid #F4C0D1;
+    border-radius: 12px;
+    padding: 12px 14px;
+    margin-bottom: 8px;
+}
+
+.product-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: #72243E;
+}
+
+.product-date {
+    font-size: 11px;
+    color: #993556;
+    margin-top: 3px;
+}
+
+.badge {
+    font-size: 10px;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+
+.badge-good {
+    background-color: #EAF3DE;
+    color: #27500A;
+}
+
+.badge-expiring {
+    background-color: #FAEEDA;
+    color: #633806;
+}
+
+.badge-expired {
+    background-color: #FCEBEB;
+    color: #791F1F;
+}
