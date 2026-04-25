@@ -275,3 +275,26 @@ body {
     border-radius: 12px;
     border: 1px solid #F4C0D1;
 }
+/*delete  html*/
+
+.delete-btn {
+    background-color: #FCEBEB;
+    color: #791F1F;
+    border: 1px solid #F09595;
+    border-radius: 10px;
+    padding: 6px 12px;
+    font-size: 11px;
+    font-family: Georgia, serif;
+    cursor: pointer;
+    flex-shrink: 0;
+    letter-spacing: 1px;
+}
+
+.delete-btn:hover {
+    background-color: #F09595;
+    color: #fff;
+}
+
+.product-list {
+    margin-top: 16px;
+}
