@@ -251,3 +251,27 @@ body {
     background-color: #FCEBEB;
     color: #791F1F;
 }
+
+/*Search html*/
+.search-result {
+    margin-top: 20px;
+}
+
+.product-category {
+    font-size: 11px;
+    color: #993556;
+    margin-top: 3px;
+    font-style: italic;
+}
+
+.not-found {
+    text-align: center;
+    font-size: 13px;
+    color: #993556;
+    font-style: italic;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #FBEAF0;
+    border-radius: 12px;
+    border: 1px solid #F4C0D1;
+}
