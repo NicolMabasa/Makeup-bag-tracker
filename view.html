@@ -6,7 +6,7 @@
     <title>Glam Bag - View Products</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+  <body>
     <div class="container">
 
         <div class="header">
@@ -20,66 +20,25 @@
         </div>
 
         <div class="body">
-            <p class="greeting">Here is everything in your glam bag!</p>
+           
+                <p class="greeting">Here is everything in your glam bag!</p>
 
-            <div class="category-section">
-                <h2 class="category-title">Lip</h2>
-                <div class="product-card">
-                    <div class="product-info">
-                        <p class="product-name">MAC Lipstick</p>
-                        <p class="product-date">Expires: 06/2027</p>
-                    </div>
-                    <span class="badge badge-good">Good</span>
-                </div>
-                <div class="product-card">
-                    <div class="product-info">
-                        <p class="product-name">Lip Liner</p>
-                        <p class="product-date">Expires: 04/2026</p>
-                    </div>
-                    <span class="badge badge-expiring">Expiring</span>
-                </div>
+                <div id="lipSection" class="category-section"></div>
+                <div id="eyeSection" class="category-section"></div>
+                <div id="eyebrowSection" class="category-section"></div>
+                <div id="skinSection" class="category-section"></div>
+
+                <p id="emptyMsg" class="not-found" style="display:none;">Your glam bag is empty. Start adding products!</p>
+
+                <a href="index.html" class="back-link">back to menu</a>
+
             </div>
-
-            <div class="category-section">
-                <h2 class="category-title">Skin</h2>
-                <div class="product-card">
-                    <div class="product-info">
-                        <p class="product-name">Foundation</p>
-                        <p class="product-date">Expires: 01/2025</p>
-                    </div>
-                    <span class="badge badge-expired">Expired</span>
-                </div>
-            </div>
-
-            <div class="category-section">
-                <h2 class="category-title">Eye</h2>
-                <div class="product-card">
-                    <div class="product-info">
-                        <p class="product-name">Mascara</p>
-                        <p class="product-date">Expires: 09/2026</p>
-                    </div>
-                    <span class="badge badge-good">Good</span>
-                </div>
-            </div>
-
-            <div class="category-section">
-                <h2 class="category-title">Eyebrow</h2>
-                <div class="product-card">
-                    <div class="product-info">
-                        <p class="product-name">Brow Pencil</p>
-                        <p class="product-date">Expires: 12/2026</p>
-                    </div>
-                    <span class="badge badge-good">Good</span>
-                </div>
-            </div>
-
-            <a href="index.html" class="back-link">back to menu</a>
-        </div>
 
         <div class="footer">
             <p class="footer-text">made with love for every girl</p>
         </div>
 
     </div>
+    <script src="view.js"></script>
 </body>
 </html>
